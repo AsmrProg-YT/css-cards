@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body{
+    background-color: #78909c;
+    padding: 10px;
+}
+
+body h2{
+    margin: 20px 0 8px 30px;
+    color: #212121;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-column{
+    margin-top: 15px;
+    width: 320px;
+}
+
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.box-header span{
+    margin-left: 5px;
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #1976d2;
+}
+
+.box-header i{
+    margin-right: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box{
+    background-color: #fff;
+    padding: 7px 20px;
+    border-radius: 8px;
+    height: 142px;
+    cursor: pointer;
+    margin: 15px 5px;
+    transition: all 0.2s;
+}
+
+.box:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.box p{
+    margin: 2px 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tag{
+    padding: 5px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 4px;
+}
+
+#red{
+    background-color: #f44336;
+}
+
+#green{
+    background-color: #4caf50;
+}
+
+#yellow{
+    background-color: #fbc02d;
+}
+
+.box-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+}
+
+.box-footer i{
+    margin-right: 5px;
+}
+
+.date{
+    display: flex;
+}
